@@ -1,0 +1,16 @@
+/* CSS Document */.importer_holder{ width:100%; margin:0 auto; position: relative; border: 1px solid #e5e5e5; -webkit-box-shadow: 0 1px 1px rgba(0,0,0,.04); box-shadow: 0 1px 1px rgba(0,0,0,.04); background: #fff; float:left; }.importer_holder h2{ padding: 10px; background: none repeat scroll 0% 0% rgb(34, 34, 34); border-color: rgb(210, 227, 235); font-weight: normal; font-size: 1.5em; color: rgb(255, 255, 255); }
+.importer_box{ padding:20px; float:left; }
+hr { border-top: 1px solid #ddd; border-bottom: 1px solid #fafafa; }
+p{ margin:0; }
+#success { margin: 15px 0; font-size: 14px; color: #000; background: #fff; border: 1px solid #eee; padding: 10px; border-left-width: 5px; border-radius: 3px; border-left-color: #5bc0de; }
+.import_left { float:left; width:30%; margin-bottom: 10px;}
+.import_right { float:left; width:70%; margin-bottom: 10px;}
+.importer_box input{padding: 4px; margin: 5px; font-size:13px; border: 1px solid #bbb; }
+.importer_box input[type=file] { border:none;}
+.importer_box input[text]{ width:20%; padding:4px 3px; }
+.importer_box input[type=checkbox] { height:16px; border: 1px solid #bbb;}
+.importer_box select { width:20%; font-size:13px; border: 1px solid #bbb; margin: 5px; padding: 2px 5px;} 
+.freq-range { width:100%; float:left; }
+.importer_box .min-range select { width:98%;}
+.min-range { width:20%; float:left; }
+#err-upload-file, #err-posttype, #err-category, #err-datetime, #err-freq-min, #err-freq-hours, #err-freq-day{ font-weight:12px; color:#FF0000; line-height:15px; margin:5px; padding:5px 0;}
